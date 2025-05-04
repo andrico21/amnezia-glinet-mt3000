@@ -92,7 +92,7 @@ jobs:
 
           make ./package/awg/amneziawg-tools/{clean,download,prepare} V=s
           make ./package/awg/amneziawg-tools/compile -i -j `nproc` V=s
-
+          find . -name *.rej | xargs cat
           echo -e "\e[32m>>> Release...\e[0m"
           mkdir -p awg
           cp bin/packages/aarch64_cortex-a53/base/amneziawg-tools_*.ipk awg/amneziawg-tools_${{ env.gl_version }}.ipk

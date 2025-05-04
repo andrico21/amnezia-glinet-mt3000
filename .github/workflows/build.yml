@@ -13,7 +13,7 @@ env:
   #owr_branch: "openwrt-24.10"
   owr_branch: "openwrt-21.02"
   #owr_commit: "ea17e958b9"
-  owr_commit: "r15812+912-46b6ee7ffc"
+  owr_commit: 'r15812+912-46b6ee7ffc'
   gl_version: "4.7.4"
   #gl_vermagic: "0645ca2e528c1ec9171c95cdd5761b53"
   gl_vermagic: "144de9e5c1a8813b724b14faa054d9f0"
